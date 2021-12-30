@@ -538,6 +538,18 @@ section {
   text-transform: uppercase;
   border-radius: 50px;
 }
+.covid19-title h2{
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 8px 20px;
+  margin: 0;
+  background: #e7f1fd;
+  color: #C30E29;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 50px;
+}
 .section-title h3 {
   margin: 15px 0 0 0;
   font-size: 32px;
@@ -545,6 +557,9 @@ section {
 }
 .section-title h3 span {
   color: #5068bd;
+}
+.covid19-title h3 span {
+  color: #C30E29;
 }
 .section-title p {
   margin: 15px auto 0 auto;
