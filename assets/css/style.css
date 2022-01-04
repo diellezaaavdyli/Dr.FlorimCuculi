@@ -711,7 +711,8 @@ section {
   color: #555555;
 }
 .about .content p {
-  font-size: 17px;
+  font-size: 15px;
+    line-height: 22px;
 }
 .about .content p:last-child {
   margin-bottom: 0;
