@@ -109,6 +109,9 @@ h1, h2, h3, h4, h5, h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  .modal{
+    padding-top: 50% !important;
+   }
 }
 /*--------------------------------------------------------------
 # Top Bar
@@ -473,7 +476,7 @@ h1, h2, h3, h4, h5, h6 {
   color:#5068bd;
 }
 #home .btn-watch-video:hover i {
-  color: #3b8af2;
+  color: #5068bd;
 }
 @media (min-width: 1024px) {
   #home {
