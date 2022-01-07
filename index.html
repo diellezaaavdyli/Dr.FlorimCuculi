@@ -8,6 +8,7 @@
   <title>Dr. Florim Cuculi | Home</title>
   <meta content="Dr. Florim Cuculi" name="description">
   <meta content="Dr. Florim Cuculi" name="keywords">
+  <meta name="image" property="og:image" content="https://drflorimcuculi.com/assets/img/logooo.png">
 
   <!-- Favicons -->
   <link href="assets/img/favicon-logo.png" rel="icon">
@@ -34,9 +35,18 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <script>
+
+    $('#myModal').on('hidden.bs.modal', function () {
+      $('iframe').contents().find('video')[0].pause();
+    });
+  </script>
+
+
 </head>
 
 <body>
+
 
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
@@ -1157,7 +1167,7 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; <strong><span>Dr. Florim Cuculi</span></strong> 2021. All Rights Reserved
+        &copy; <strong><span>Dr. Florim Cuculi</span></strong> 2022. All Rights Reserved
       </div>
       <div class="credits">
         Powered by <strong><span><a href="https://opendatakosovo.org">Open Data Kosovo</a></span></strong>
@@ -1174,6 +1184,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -1186,6 +1197,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 
 </body>
 
